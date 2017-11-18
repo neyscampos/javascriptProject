@@ -29,15 +29,15 @@ function divisao(n1, n2){
 
 function operacao(op,n1,n2){
 	
+	 var valor1 = eval(n1);
+	 var valor2 = eval(n2);
 	 switch(op){
 	 case  "soma" : 
-		 alert("ate aqui foi");
-      document.getElementById("resposta").innerHtml =   soma(n1,n2);
-      alert("certo ...");
+      document.getElementById("resposta").innerHTML =   soma(valor1,valor2);
 	  break;
 	  
 	 default : 
-	   document.getElementById("resposta").innerHtml =   "Nao Encontrado...";
+	   document.getElementById("resposta").innerHTML =   "Nao Encontrado...";
 	  break;
 	 }
 		
