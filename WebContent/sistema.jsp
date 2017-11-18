@@ -10,7 +10,9 @@
 <br/>Operacao<br/>
 <input type="text" name="op" id="op" size="10">
 
-<button id="btn1" name="btn1" type="button" onclick="operacao(op.value, n1.value, n2.value)"></button>
+<button id="btn1" name="btn1" type="button" onclick="operacao(op.value, n1.value, n2.value)">
+    Calcular
+</button>
 </form>
 
 <div id="resposta"></div>
