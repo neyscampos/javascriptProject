@@ -7,11 +7,18 @@
 <br/>Numero 2<br/>
 <input type="number" name="n2" id="n2" size="5">
 
-<br/>Operacao<br/>
-<input type="text" name="op" id="op" size="10">
 
-<button id="btn1" name="btn1" type="button" onclick="operacao(op.value, n1.value, n2.value)">
-    Calcular
+<button id="btn1" name="btn1" type="button" onclick="operacao('soma', n1.value, n2.value)">
+    +
+</button>
+<button id="btn1" name="btn1" type="button" onclick="operacao('subtracao', n1.value, n2.value)">
+    -
+</button>
+<button id="btn1" name="btn1" type="button" onclick="operacao('multiplicacao', n1.value, n2.value)">
+    *
+</button>
+<button id="btn1" name="btn1" type="button" onclick="operacao('divisao', n1.value, n2.value)">
+    /
 </button>
 </form>
 
